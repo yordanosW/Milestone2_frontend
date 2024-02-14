@@ -11,14 +11,17 @@ function Home() {
         const url = `${process.env.REACT_APP_BACKEND_URL}/foods/all`
         const response = await fetch(url)
         const data  = await response.json()
+        console.log(data)
         setFoods(data)
     }
-   })
+    fetchData()
+   },[])
 
    const display = foods.map(food => {
     return (
         <div key={foods.id}>
-            <Link to={`/foods/${foods._id}`}>{foods.name}</Link>
+
+            <Link to={`/foods/${food._id}`}>{food.name}</Link>
         </div>
     )
    })
