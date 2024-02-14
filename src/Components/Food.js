@@ -1,9 +1,9 @@
 function Food() {
+    console.log('hello')
     return(
-        <div>
-            food
-        </div>
+       <p>TEST</p>
     )
+   
 }
 
 export default Food

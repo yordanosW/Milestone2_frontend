@@ -21,7 +21,7 @@ function Home() {
     return (
         <div key={foods.id}>
 
-            <Link to={`/foods/${food._id}`}>{food.name}</Link>
+            <Link to={`/food`}>{food.name}</Link>
         </div>
     )
    })
