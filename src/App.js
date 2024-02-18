@@ -5,6 +5,8 @@ import NewFood from './Components/NewFood';
 import Home from './Components/Home';
 import Grocery from './Components/Grocery';
 import SignIn from './Components/SignIn';
+import Cart from './Components/Cart.js';
+
 //Home, New, FoodPage
 
 function App() {
@@ -18,6 +20,7 @@ function App() {
             <Route path ='/food/new' element={<NewFood/>}/>
             <Route path = '/Grocery' element={<Grocery/>}/>
             <Route path = '/SignIn' element={<SignIn/>}/>
+            <Route path ='/Cart'  element={<Cart/>}/>
           </Routes>
          </Router>
     </div>
