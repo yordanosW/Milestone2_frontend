@@ -1,0 +1,29 @@
+.form{
+    border-radius: 5px solid white;
+    margin: auto;
+    color: white;
+    margin-top: 10em;
+    display: flex;
+    flex-direction: row;
+    background: #45CFFF;
+    color: white;
+    background-color: #45CFFF;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    width: 100vh;
+    outline: white;
+    align-items: center;
+
+    
+}
+.form-submit-button{
+    color: white;
+    background-color: #45CFFF;
+    border: 5px white;
+    outline: white;
+}
+input{
+    background-color: #45CFFF;
+    color: white;
+    border: 5px white;
+}
