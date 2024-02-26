@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+.custom-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  width: auto;
+    padding: 3vh 10vw;
+    margin: 2rem 20rem ;
+    background-color: #45ACEC ;
+    color: white;
+    text-align: center;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    
+
+  }
+
+
+
+ .card-headers {
+  color: #F36991;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  
+ }
+
+
+.side-by-side{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+
+  
+}
+ .card-text-size{
+  margin: 10px;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+ }
+ .form-1{
+  background-color: #45ACEC ;
+  color: white;
+  width: 100px;
+  height: 40px;
+  margin: 30px;
+  border-radius: 10%;
+ }
+
+ .form-2{
+   background-color: pink;
+   color: white;
+   width: 200px;
+   height: 40px;
+   border-radius: 10%;
+ }
+
+ .card-img{
+  
+margin: auto;
+padding: auto;
+  display: flex;
+  justify-content: center;
+  width: 40vh;
+  height: auto;
+ }
+
+ .mainpage{
+  width: auto;
+  height: 140vh;
+ }

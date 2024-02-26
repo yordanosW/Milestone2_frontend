@@ -3,12 +3,10 @@ import { useParams, useNavigate, Link} from "react-router-dom"
 import { Card,CardBody,CardSubtitle,CardImg,CardTitle, Button, CardText} from "react-bootstrap"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../CSS/Card.css'
-import Grocery from "./Grocery.jsx";
-import GroceryItem from "./GroceryItem";
 
 
 
-function Food() {
+function UpdateForm() {
     const [foods, setFoods] = useState('')
     const {id} = useParams()
     const navigate = useNavigate()
@@ -36,7 +34,6 @@ function Food() {
             <CardText><h4 className="card-headers">price: </h4> <p className="card-text-size">{foods.price}</p></CardText>
             <CardText><h4 className="card-headers">description: </h4> <p className="card-text-size">{foods.description}</p></CardText>
             <CardText><h4 className="card-headers">section: </h4> <p className="card-text-size">{foods.section}</p></CardText>
-            <Button className="col-3 center-form2" > Add to Cart</Button>
         </Card>
     )
 
@@ -53,4 +50,4 @@ function Food() {
    
 }
 
-export default Food;
+export default UpdateForm

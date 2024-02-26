@@ -1,0 +1,95 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px 0  rgba(0,0,0,.2);
+}
+nav span{
+    width: 25px;
+    height: 25px;
+}
+
+nav span:hover{
+ color: greenyellow;
+ cursor: pointer;
+}
+nav img{
+    width: 100px;
+    height: 100px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.firstRow{
+   background-color:#F36991;
+   font-family: "Anton", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   color: white;
+   padding: 40px 100px 10px 100px;
+
+}
+.secondRow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(69, 172, 236);
+    padding: 10px 100px 10px 100px;
+    margin: 50px 100px 10px 100px;
+    border: white 10px solid;
+    border-radius: 20px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+  
+}
+nav .searchBar{
+    display: flex;
+    box-shadow: 0 0 10px 0 black;
+    border-radius: 5px;
+    
+}
+
+nav .right{
+    display: flex;
+    justify-content: space-between;gap: 10px;
+    align-items: center;
+}
+
+nav .loginSignup{
+display: flex;
+position: relative;
+margin: 0px 20px;
+}
+
+nav .quantity{
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    padding: 2px 5px;
+    border-radius: 50%;
+    position: relative;
+    right: -3px;
+    top: -20px;
+text-align: center;
+}
+nav .home{
+display: flex;
+}
+ nav Link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.Link{
+    color: white;
+    &:hover {
+        color:#F36991
+    }
+    
+}
